@@ -303,6 +303,7 @@ function loop() {
     draw();
     frames++;
     requestAnimationFrame(loop);
+    requestAnimationFrame(loop);
 }
 loop();
 function update() {
